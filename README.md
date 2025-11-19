@@ -11,7 +11,7 @@ A lightweight Python tool that extracts structured job metadata from PDF job des
 ## Tech stack
 **Python · PyPDF2 · Pandas · Regex · File automation**
 
-## Future Roadmap (depending on whether I get hired first)
+## Future Roadmap (depending on whether I get hired first since the project is a personal job ATS)
 
 #### Support for additional PDF formats
 Handling variations across Workday, Linkedin, Company Career Sites, and other sites.
@@ -20,7 +20,7 @@ Handling variations across Workday, Linkedin, Company Career Sites, and other si
 Replace PDF parser for active postings, while PDF parser handles the expired ones.
 
 #### Google Drive integration
-Automatically generate permanent shareable links for stored job descriptions. Implemented in tracking sheet to click and access.
+Automatically generate permanent shareable links for stored job descriptions. Implemented in tracking sheet for quick access.
 
 #### Gmail parsing for application updates
 Read automated emails (interviews, rejections, status changes)  
@@ -29,6 +29,9 @@ Read automated emails (interviews, rejections, status changes)
 
 #### Resume version tracking
 Track which resume variant was sent with each application.
+
+#### Job description key words extraction
+Extract key words from JD for future analysis.
 
 #### Automated nightly batch processing
 Package as a batch file → run via Task Scheduler → fully hands-free updates.
